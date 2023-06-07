@@ -1,0 +1,206 @@
+:root {
+  color: #213547;
+  background: linear-gradient(115deg, #004ff9, #000000);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+h2 {
+  font-size: larger;
+  line-height: 1.1;
+  color: white;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 0em;
+}
+
+.buttonWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 4em 2em 0em 0em;
+}
+
+button {
+  height: 2.85em;
+  color: white;
+  background-color: blueviolet;
+  border-radius: 8px;
+  border-width: 0.15em;
+  border-color: gold;
+  padding: 0.6em 1.2em 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.25s;
+  width: 8em;
+  margin: 0.5em 0.5em 4em 0em;
+}
+
+button:hover {
+  border-color: blueviolet;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px blueviolet;
+}
+
+.inputs {
+  height: 1em;
+  width: 16em;
+  border-color: blueviolet;
+  font-size: 2em;
+  text-align: center;
+}
+
+.enterButton {
+  height: 2.85em;
+  margin: 0em 0em 1em 1em;
+}
+
+.marquee {
+  color: white
+}
+
+.everythingWrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.namesWrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameBoxWrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.nameBox {
+  text-align: center;
+  height: 1.5em;
+  width: 15em;
+  color: white;
+  border: 0.15em solid gold;
+  background-color: blueviolet;
+  border-radius: 6px;
+  border-width: 0.15em;
+  padding: 0.6em 1.2em;
+  font-size: 1.2em;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.scoreWrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4em;
+}
+
+.scoreBoard {
+  height: 1.5em;
+  text-align: center;
+  color: white;
+  border: 0.06em solid gold;
+  background-color: blueviolet;
+  border-radius: 6px;
+  padding: 0.6em 0.6em 0.6em 0.6em;
+  font-size: 4em;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.flip {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: flipInX; 
+  animation-duration: 6s; 
+}
+
+.wobble {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: wobble; 
+  animation-duration: 6s; 
+}
+
+.hinge {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: hinge; 
+  animation-duration: 6s; 
+}
+
+.heartBeat {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: heartbeat; 
+  animation-duration: 6s; 
+}
+
+.rubberBand {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: rubberBand; 
+  animation-duration: 6s; 
+}
+
+.flash {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: flash; 
+  animation-duration: 6s; 
+}
